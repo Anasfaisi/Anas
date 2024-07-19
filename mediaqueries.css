@@ -1,0 +1,16 @@
+@media screen and (max-width: 1200px) {
+  .list-contain {
+    display: flex;
+    gap: 5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 425px) {
+  .list-contain {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*     ------------part 5 project------------------------- */

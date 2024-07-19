@@ -1,0 +1,111 @@
+/* part 2 -   home section------ */
+
+body {
+  scroll-behavior: smooth;
+  background: radial-gradient(#d4f2f7, #dffdf4c2, #d0f8fe, #e7f5fe);
+
+}
+/* ------part 1 nav bar------- */
+.anas-editing {
+  margin-top: 3vh;
+}
+
+/* -----part 2 home */
+.pic {
+  width: 25vw;
+  border-radius: 300px;
+}
+.home {
+  display: flex;
+  align-items: center;
+  margin-top: 12vh;
+}
+.button-alter {
+  background-color: cornflowerblue !important;
+}
+
+/*   part 3 about --------  */
+.about {
+  margin-top: 12vh;
+}
+.image {
+  border-radius: 30px;
+}
+.about-description {
+  line-height: 5vh;
+  letter-spacing: 1px;
+}
+.list-contain {
+  display: flex;
+}
+
+/* --------part 4 skills------ */
+.skills {
+  margin-top: 14vh;
+  gap: 7vw;
+  display: flex;
+  justify-content: center;
+}
+.skills_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid grey;
+  border-radius: 20px;
+  gap: 7vh;
+  padding: 10%;
+}
+.skills img {
+  height: 10vh;
+  align-items: center;
+}
+.image_content {
+  display: flex;
+  justify-content: space-around;
+}
+/*     ------------part 5 project------------------------- */
+.projects {
+  margin-top: 14vh;
+  display: flex;
+  gap: 10vw;
+}
+.project {
+  gap: 5vw;
+  border: solid grey;
+  border-radius: 20px;
+}
+.project_contains {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  justify-content: space-around;
+  padding: 5%;
+}
+.button {
+  /* background-color: rgb(95, 22, 22) !important; */
+}
+#link {
+  text-decoration: none;
+  /* text-decoration-line: none; */
+}
+
+/*  ----------services-------- */
+.services {
+  margin-top: 20vh;
+}
+.icon_content {
+  gap: 2vw;
+  display: flex;
+  justify-content: space-around;
+}
+.services {
+  gap: 10vh;
+}
+/* ------------contact---------- */
+.contact{
+  margin-top: 20vh;
+}
+/* ----------foooter----- */
+.footer {
+  margin-top: 11vh;
+}
